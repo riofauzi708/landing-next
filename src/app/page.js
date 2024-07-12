@@ -102,10 +102,10 @@ const Footer = () => (
         <p><strong>Telepon:</strong> (021) 555-0123</p>
       </FooterSection>
       <FooterSection title="Ikuti Kami">
-        <div>
-          <a href="#">Facebook</a>
-          <a href="#">Twitter</a>
-          <a href="#">Instagram</a>
+        <div className="social-links">
+          <a href="#" className="social-icon"><i className="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#" className="social-icon"><i className="fab fa-twitter"></i> Twitter</a>
+          <a href="#" className="social-icon"><i className="fab fa-instagram"></i> Instagram</a>
         </div>
       </FooterSection>
       <FooterSection title="Link Cepat">
@@ -132,5 +132,6 @@ const FooterSection = ({ title, children }) => (
     {children}
   </div>
 );
+
 
 export default Page;

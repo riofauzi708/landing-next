@@ -303,17 +303,24 @@ p {
   color: #f1c40f;
 }
 
-.social-icon {
-  display: inline-block;
-  margin-right: 10px;
+.social-links {
+  display: flex;
+  gap: 10px;
 }
 
-.social-icon i {
-  font-size: 20px;
+.social-icon {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
   transition: color 0.3s;
 }
 
-.social-icon i:hover {
+.social-icon i {
+  margin-right: 5px;
+}
+
+.social-icon:hover {
   color: #f1c40f;
 }
 
@@ -327,6 +334,7 @@ p {
   margin-top: 10px;
   border-radius: 50%;
 }
+
 
 /* Responsiveness */
 @media (max-width: 768px) {
